@@ -5,5 +5,7 @@
 ## Leetcode
 
 * [Array](<README (1).md>)
-  * [ID:11](leetcode/array/id-11.md)
+  * [Container with most water](leetcode/array/container-with-most-water.md)
+  * [3Sum](leetcode/array/3sum.md)
+  * [Next Permutation](leetcode/array/next-permutation.md)
 * [LinkedList](leetcode/linkedlist.md)
