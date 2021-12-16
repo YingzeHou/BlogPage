@@ -3,5 +3,5 @@
 ## Leetcode
 
 * [Array](README.md)
-  * [ID:](leetcode/array/id.md)
+  * [ID:11](leetcode/array/id-11.md)
 * [LinkedList](leetcode/linkedlist.md)
