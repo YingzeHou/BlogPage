@@ -12,5 +12,6 @@
   * [Permutation II](leetcode/array/permutation-ii.md)
   * [Combination Sum](leetcode/array/combination-sum.md)
   * [Triangle](leetcode/array/triangle.md)
+  * [Maximal Square](leetcode/array/maximal-square.md)
   * [Rotate Image](leetcode/array/rotate-image.md)
 * [LinkedList](leetcode/linkedlist.md)

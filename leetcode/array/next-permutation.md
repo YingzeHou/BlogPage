@@ -16,7 +16,7 @@ Output: [1,2,4,3,5,6]
 ## Idea
 
 {% hint style="info" %}
-Swap + reverse + condition checkx
+Swap + reverse + condition check
 {% endhint %}
 
 Check if given nums\[] in desending order, if yes, just reverse
