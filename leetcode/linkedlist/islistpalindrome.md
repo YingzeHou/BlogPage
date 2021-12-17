@@ -49,7 +49,3 @@ boolean solution(ListNode<Integer> head) {
     return ispalin;
 }
 ```
-
-## &#x20;
-
-## &#x20;&#x20;
