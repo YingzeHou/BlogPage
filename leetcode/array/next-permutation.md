@@ -8,6 +8,11 @@ Implement **next permutation**, which rearranges numbers into the lexicographica
 
 If such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order).
 
+```
+Input: nums = [1,2,3,6,5,4]
+Output: [1,2,4,3,5,6]
+```
+
 ## Idea
 
 {% hint style="info" %}
