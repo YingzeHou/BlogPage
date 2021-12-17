@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Notes for Computer Science](README.md)
+* [💻 Notes for Computer Science](README.md)
 
 ## Leetcode
 
