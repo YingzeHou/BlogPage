@@ -13,6 +13,7 @@
   * [Combination Sum](leetcode/array/combination-sum.md)
   * [Triangle](leetcode/array/triangle.md)
   * [Maximal Square](leetcode/array/maximal-square.md)
+  * [Numbers At Most N Given Digit Set](leetcode/array/numbers-at-most-n-given-digit-set.md)
   * [Rotate Image](leetcode/array/rotate-image.md)
 * [LinkedList](leetcode/linkedlist/README.md)
   * [IsListPalindrome](leetcode/linkedlist/islistpalindrome.md)
@@ -20,6 +21,10 @@
   * [ReverseNodeInKGroup](leetcode/linkedlist/reversenodeinkgroup.md)
   * [RearrangeLastN](leetcode/linkedlist/rearrangelastn.md)
   * [RemoveKFromList](leetcode/linkedlist/removekfromlist.md)
+* [String](leetcode/string/README.md)
+  * [Generate Parentheses](leetcode/string/generate-parentheses.md)
+  * [Count and Say](leetcode/string/count-and-say.md)
+  * [Permutation in String](leetcode/string/permutation-in-string.md)
 
 ## DBMS
 
