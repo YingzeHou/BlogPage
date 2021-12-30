@@ -14,6 +14,8 @@
   * [Triangle](leetcode/array/triangle.md)
   * [Maximal Square](leetcode/array/maximal-square.md)
   * [Numbers At Most N Given Digit Set](leetcode/array/numbers-at-most-n-given-digit-set.md)
+  * [Possible Sum](leetcode/array/possible-sum.md)
+  * [Swap Lex Order](leetcode/array/swap-lex-order.md)
   * [Rotate Image](leetcode/array/rotate-image.md)
 * [LinkedList](leetcode/linkedlist/README.md)
   * [IsListPalindrome](leetcode/linkedlist/islistpalindrome.md)
