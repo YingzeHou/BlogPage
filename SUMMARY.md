@@ -16,6 +16,9 @@
   * [Numbers At Most N Given Digit Set](leetcode/array/numbers-at-most-n-given-digit-set.md)
   * [Possible Sum](leetcode/array/possible-sum.md)
   * [Swap Lex Order](leetcode/array/swap-lex-order.md)
+  * [Partition Equal Subset Sum](leetcode/array/partition-equal-subset-sum.md)
+  * [Domino and Tromino](leetcode/array/domino-and-tromino.md)
+  * [Numbers At Most N Given Digits](leetcode/array/numbers-at-most-n-given-digits.md)
   * [Burst Balloons](leetcode/array/burst-balloons.md)
   * [Rotate Image](leetcode/array/rotate-image.md)
 * [LinkedList](leetcode/linkedlist/README.md)
@@ -29,6 +32,8 @@
   * [Count and Say](leetcode/string/count-and-say.md)
   * [Decode String](leetcode/string/decode-string.md)
   * [Permutation in String](leetcode/string/permutation-in-string.md)
+* [Tree](leetcode/tree/README.md)
+  * [House Robber III](leetcode/tree/house-robber-iii.md)
 
 ## DBMS
 
