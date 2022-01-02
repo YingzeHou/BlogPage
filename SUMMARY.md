@@ -13,6 +13,7 @@
   * [Combination Sum](leetcode/array/combination-sum.md)
   * [Triangle](leetcode/array/triangle.md)
   * [Maximal Square](leetcode/array/maximal-square.md)
+  * [Pairs of Songs with Total Duration Divisible by 60](leetcode/array/pairs-of-songs-with-total-duration-divisible-by-60.md)
   * [Numbers At Most N Given Digit Set](leetcode/array/numbers-at-most-n-given-digit-set.md)
   * [Possible Sum](leetcode/array/possible-sum.md)
   * [Swap Lex Order](leetcode/array/swap-lex-order.md)
