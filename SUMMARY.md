@@ -26,6 +26,7 @@
   * [MergeTwoLinkedList](leetcode/linkedlist/mergetwolinkedlist.md)
   * [ReverseNodeInKGroup](leetcode/linkedlist/reversenodeinkgroup.md)
   * [RearrangeLastN](leetcode/linkedlist/rearrangelastn.md)
+  * [Remove Duplicates From Sorted List](leetcode/linkedlist/remove-duplicates-from-sorted-list.md)
   * [RemoveKFromList](leetcode/linkedlist/removekfromlist.md)
 * [String](leetcode/string/README.md)
   * [Generate Parentheses](leetcode/string/generate-parentheses.md)
