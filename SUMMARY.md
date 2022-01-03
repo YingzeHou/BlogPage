@@ -31,6 +31,7 @@
   * [RemoveKFromList](leetcode/linkedlist/removekfromlist.md)
 * [String](leetcode/string/README.md)
   * [Generate Parentheses](leetcode/string/generate-parentheses.md)
+  * [Longest Valid Parentheses](leetcode/string/longest-valid-parentheses.md)
   * [Count and Say](leetcode/string/count-and-say.md)
   * [Decode String](leetcode/string/decode-string.md)
   * [Permutation in String](leetcode/string/permutation-in-string.md)
