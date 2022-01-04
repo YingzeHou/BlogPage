@@ -20,6 +20,7 @@
   * [Partition Equal Subset Sum](leetcode/array/partition-equal-subset-sum.md)
   * [Domino and Tromino](leetcode/array/domino-and-tromino.md)
   * [Numbers At Most N Given Digits](leetcode/array/numbers-at-most-n-given-digits.md)
+  * [Min Size Subarray Sum](leetcode/array/min-size-subarray-sum.md)
   * [Burst Balloons](leetcode/array/burst-balloons.md)
   * [Rotate Image](leetcode/array/rotate-image.md)
 * [LinkedList](leetcode/linkedlist/README.md)
