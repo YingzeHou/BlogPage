@@ -44,10 +44,6 @@ public List<List<Integer>> combinationSum(int[] candidates, int target) {
 }
     private void comb(int[] candidates, int target, List<List<Integer>> output, List<Integer> curr, int currInd){
         if(target==0 && !curr.isEmpty()){
-            for(Integer g: curr){
-                        System.out.print(g);
-                    }
-                    System.out.println();
             output.add(new ArrayList<>(curr));
         }
         else{

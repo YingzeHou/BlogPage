@@ -20,6 +20,8 @@
   * [Partition Equal Subset Sum](leetcode/array/partition-equal-subset-sum.md)
   * [Domino and Tromino](leetcode/array/domino-and-tromino.md)
   * [Numbers At Most N Given Digits](leetcode/array/numbers-at-most-n-given-digits.md)
+  * [Car Pooling](leetcode/array/car-pooling.md)
+  * [Surrounding Regions](leetcode/array/surrounding-regions.md)
   * [Min Size Subarray Sum](leetcode/array/min-size-subarray-sum.md)
   * [Burst Balloons](leetcode/array/burst-balloons.md)
   * [Rotate Image](leetcode/array/rotate-image.md)
@@ -38,6 +40,8 @@
   * [Permutation in String](leetcode/string/permutation-in-string.md)
 * [Tree](leetcode/tree/README.md)
   * [House Robber III](leetcode/tree/house-robber-iii.md)
+  * [Populating Next Right Pointers in Each Node II](leetcode/tree/populating-next-right-pointers-in-each-node-ii.md)
+  * [Subtree of Another Tree](leetcode/tree/subtree-of-another-tree.md)
 
 ## DBMS
 
