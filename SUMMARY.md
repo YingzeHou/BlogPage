@@ -24,6 +24,8 @@
   * [Surrounding Regions](leetcode/array/surrounding-regions.md)
   * [Min Size Subarray Sum](leetcode/array/min-size-subarray-sum.md)
   * [Burst Balloons](leetcode/array/burst-balloons.md)
+  * [Jump Game I](leetcode/array/jump-game-i.md)
+  * [Jump Game II](leetcode/array/jump-game-ii.md)
   * [House Robber II](leetcode/array/house-robber-ii.md)
   * [Cherry Pickup](leetcode/array/cherry-pickup.md)
   * [Rotate Image](leetcode/array/rotate-image.md)
