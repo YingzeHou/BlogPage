@@ -27,6 +27,8 @@
   * [Jump Game I](leetcode/array/jump-game-i.md)
   * [Jump Game II](leetcode/array/jump-game-ii.md)
   * [House Robber II](leetcode/array/house-robber-ii.md)
+  * [Word Break](leetcode/array/word-break.md)
+  * [Decode Ways](leetcode/array/decode-ways.md)
   * [Cherry Pickup](leetcode/array/cherry-pickup.md)
   * [Rotate Image](leetcode/array/rotate-image.md)
 * [LinkedList](leetcode/linkedlist/README.md)
