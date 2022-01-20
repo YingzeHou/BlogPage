@@ -53,6 +53,7 @@
   * [Subtree of Another Tree](leetcode/tree/subtree-of-another-tree.md)
 * [Graph](leetcode/graph/README.md)
   * [All Paths from Source to Target](leetcode/graph/all-paths-from-source-to-target.md)
+  * [Max Points on a Line](leetcode/graph/max-points-on-a-line.md)
 
 ## DBMS
 
