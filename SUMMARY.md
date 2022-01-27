@@ -63,4 +63,5 @@
 
 ## Web App
 
+* [JavaScript](web-app/javascript.md)
 * [React.js](web-app/react.js.md)
