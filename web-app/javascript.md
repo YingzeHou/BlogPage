@@ -326,3 +326,72 @@ Width breakpoints to reorganize the layout
 {% embed url="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial" %}
 
 {% embed url="https://www.w3schools.com/bootstrap/default.asp" %}
+
+## Design Thinking
+
+Definition: Approach-->handson, user-centric; Process-->6 phase process: understanding, exploration, materialization
+
+1. <mark style="color:blue;">Empathize</mark>
+2. <mark style="color:blue;">Define</mark>
+3. <mark style="color:orange;">Ideation</mark>
+4. <mark style="color:orange;">Prototyping</mark>
+5. <mark style="color:red;">Testing</mark>
+6. <mark style="color:red;">Implementation</mark>
+
+### Empathize
+
+Understand users' need, preference, expectations by studying what they do, think, and feel
+
+![](<../.gitbook/assets/Screen Shot 2022-02-08 at 11.14.11 AM.png>)
+
+#### Think-alouds
+
+Ask participant to do the task while describing their behavior, and observe their actions with the interface.
+
+### Define
+
+* gather: gather findings
+* analyze: consolidating, categorizing, distilling
+* recommend: translate into insight
+
+Affinity Diagramming: Organize data into clusters based on "affinity"
+
+AKA _affinity mapping, collaborative sorting, snowballing_
+
+1. Start initial set of categories
+2. Sort notes into these categories
+3. Add subcategories or consolidate categories as needed
+4. Present each category
+5. Rank categories in severity, importance, prevalence, frequency
+
+### Ideate
+
+Active, creative, highly iterative process for forming ideas for design
+
+Individually or Collaboratively
+
+Idea creationg => Critiquing (2-step process)
+
+#### IDEO's Rules of Engagement:
+
+1. Defer judgement
+2. Encourage wild ideas
+3. Build on the ideas of others
+4. Stay focused on the topic
+5. One conversation at a time
+6. Be visual
+7. Go for quantity
+
+#### Sketch: quick and rough drawing that gives a general outline of an idea
+
+* Everyone can sketch
+* More effective than words
+* Not inhibit exploration
+* Disposable
+
+\==> Conceptual Design: Abstract characterization of context
+
+#### Storyboarding: Sequence of visual frames that illustrate user interaction that shape user exp.
+
+#### Journey Maps: A visualization of the process that a person goes through in order to accomplish a goal
+
