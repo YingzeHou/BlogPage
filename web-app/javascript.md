@@ -395,3 +395,92 @@ Idea creationg => Critiquing (2-step process)
 
 #### Journey Maps: A visualization of the process that a person goes through in order to accomplish a goal
 
+## Visual Design
+
+### Elements of Design
+
+1. Space: Canvas on which visual elements are placed
+   1. Positive: where the subject is positioned
+   2. Negative: space surrounding the subject
+   3. Negative can be used as positive
+2. Line: Most primal design element, divide space, call attention, organize, and make up other
+3. Shape: Space outlined by a contour
+   1. Geometric
+   2. Organic
+   3. Abstract
+4. Size: Scale, the relative extent of the design elements such as shapes and lines
+5. Pattern: Repetition, systematic duplication of design elements such as shapes and lines
+6. Texture: Tactile and visual quality of a shape or space, by different color, material, structure
+7. Value: The intensity in which a design element is expressed, such as foggy and lightening
+
+### Principle of Design
+
+1. Focal Point: Area of visual interest, where the design directs the attention of the viewer first
+   1. Color
+   2. Large Size
+   3. Location of Element
+2. Contrast: Juxtaposition of design elements that strikingly differ from each other
+3. Balance: Organization of design elements on canvas to provide a sense of balence/imbalance
+   1. Symmetry or Asymmetry
+4. Movement: Organization of design elements that suggests a particular flow on the canvas
+5. Rhythm: Patterned use of design elements that communicate movement or order
+6. Perspective: Creating a sense of horizon and movement along the **depth** axis of canvas
+7. Unity: Reflects the holistic consistency in the use of design element
+
+#### Associated Concepts
+
+* Font: style in which type is created
+* Typeface: font family
+* Glyph: particular character
+
+### Category of typefaces
+
+1. Old-style fonts: "serifs" at the tips of a glyph that taper closer to the tip
+2. Modern & slab-serif fonts: Very thin or very thick serifs
+3. Sans-serif fonts: Lack the serif at the tips, stroke follow uniform weight
+4. Script fonts: Simulate cursive writing where glyph connect with each other at the downstroke
+5. Decorative fonts: Specifically to convey a particular context or elicit a particular feeling
+
+#### Font parameters:
+
+* Style variation: bold, italic, oblique
+* Caps: all caps, small caps
+* Weight: extra light, light, medium, bold
+
+### Color: Visual Perception of light reflecting from object
+
+* Creates emphasis
+* Organizes content
+* Evokes emotion
+
+Tints: Add White to color
+
+Shades: Add Black to color
+
+Hue: Standard color: red, yellow, blue
+
+### Color Palettes
+
+![](<../.gitbook/assets/Screen Shot 2022-02-10 at 12.05.44 PM.png>)
+
+* Analogous: Nearby colors on color wheel
+* Complementary: Opposite colors on color wheel
+* Split-Complementary: One color on 1 side, 2 colors on opposite side
+* Triadic: 3 distinct colors
+* Monochromatic: One Hue, adjust gray scale
+* Achromatic: Only use gray scale colors
+
+#### Color Vision Deficiencies
+
+* Intensity vs Hue for emphasis
+* Size of colored element
+* Proximity of similar colors
+
+{% embed url="https://www.ghacks.net/2017/03/02/run-color-blindness-tests-on-your-websites" %}
+
+### Images
+
+Photograph, illustrations, 3D art, etc... convey rich information or context
+
+* Raster Graphic: Conventional, bitmap, pixels, zoom in-->blurry
+* Vector Graphic: Computer generated, flexible in scaling
