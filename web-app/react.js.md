@@ -8,9 +8,11 @@ description: 'GitHub Repo: https://github.com/YingzeHou/portfolio.git'
 
 1. Download Node.js
 2. Run VScode as admin role in the target directory
-3. Comman line: `npx create-react-app .`
-4. Delete unneccesary files like icon, css, etc. (Keep App.js & index.js)
-5. `npm start` to start the development server
+3. `npm install -g create-react-app`
+4. `npx create-react-app <your-app-name>.`
+5. `cd <your-app-name>`
+6. Delete unneccesary files like icon, css, etc. (Keep App.js & index.js)
+7. `npm start` to start the development server
 
 ## StartUp
 
@@ -114,3 +116,111 @@ export default function Cover({QRopen, setQRopen}) {
 &#x20;  3\. Create a github repo and push local project to remote repo
 
 &#x20;  4\. Run `npm run deploy` to deploy the website, thus website is available at homepage url
+
+{% embed url="https://reactjs.org/docs/getting-started.html" %}
+
+{% embed url="https://www.w3schools.com/react" %}
+
+{% embed url="https://buildwithreact.com" %}
+
+{% embed url="https://www.taniarascia.com/getting-started-with-react" %}
+
+## History & Overview
+
+WHY: JS library for building user interfaces
+
+DOM for single-page applications (SPAs) can be huge
+
+Large number of updates on DOM elements
+
+#### Virtual DOM
+
+Virtual representation of the user-facing elements that are kept in memeory and synced with the real DOM when DOM elements are updated.
+
+#### Reconciliation
+
+The process to diffing and syncing the virtual and real DOM to render changes for the user.
+
+#### Declaritive
+
+Express logic of a computation without describing its flow: What we want the outcome to be
+
+![](<../.gitbook/assets/Screen Shot 2022-02-15 at 11.26.26 AM.png>)
+
+ReactDOM library takes care of reconciliation and updating user-facing content under the hood
+
+## Building Block
+
+Elements: Light, stateless, immutable, virtual representation of a DOM element
+
+Generate **new element** to update the page
+
+```jsx
+var root = React.createElement('div');
+ReactDOM.render(root, document.getElementById('example'));
+```
+
+Components: A function or class that accepts an input and returns a React element
+
+Works like JS functions; Accept props; Each component is encapsulated (one component per file) and can operate independently, affording modularity.
+
+```jsx
+class Welcome extends React.Component {
+    render(){
+        return <h1>Hello, {this.props.name}</h1>;
+    }
+}
+```
+
+#### render()
+
+Returns a React element to be displayed on the page. WHAT to see on screen-->into render()
+
+* ReactDOM.render(): Mounts the declared element as a child to the specified container in the DOM.
+* Component.render(): Creates the virtual DOM representation of the contents of the React component. Then, we call ReactDOM.render() to mount it to the real DOM
+
+#### props:
+
+Properties, the arbitrary input provided into React component that utilize them to render content.
+
+Component never modify props; Read-only & Immutable;
+
+```jsx
+function Welcome(props){
+    return <h1>Hello, {this.props.name}</h1>
+}
+const element = <Welcome name = "Professor" />;
+ReactDOM.render(element, document.getElementById('root'));
+```
+
+#### states
+
+Fully private and controlled by the component
+
+Keep track of changes in data.
+
+```jsx
+class Welcome extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {date: new Date()};
+    }
+}
+```
+
+#### JSX
+
+Syntax extension to JavaScript, that adds XML syntax to JavaScript. JSX declarations produce React elements.
+
+Makes React programming extremely effective
+
+#### Naming Convention
+
+camelCase involves writing phrases such that each word begins capitalized with no spaces. (ReactDOM & JSX)
+
+hyphen-case involves writing phrases in lower case and using a hyphen as a seperator.&#x20;
+
+PascalCase capitalizes all words with no spaces (React Components)
+
+## Setting up React Project
+
