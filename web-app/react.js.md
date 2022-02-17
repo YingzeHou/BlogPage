@@ -222,5 +222,43 @@ hyphen-case involves writing phrases in lower case and using a hyphen as a seper
 
 PascalCase capitalizes all words with no spaces (React Components)
 
-## Setting up React Project
+### Component Library
 
+Abstract away the low-level CSS implementation of user-facing elements.
+
+* Bootstrap: (1) CDN=JS (2) Bootstrap dependency (3) React Bootstrap package
+* Foundation
+* Semantic UI
+* Pure
+* UIkit
+
+### Component Development & Reuse
+
+1. Mock-up design: Sketch out the design
+2. Break the UI into component hierarchy: Structure of the component->tree layout
+3. Build static version: HTML component layout: div->child DOM structure
+4. Identify the minimal set of mutable state: Check elements to see if changeable
+5. Identify where your state should live: (1) App track state; (2) TACard keep track; (3) TAContactButton keep track: Scope of the state, #3 most aligned with React way (Bestly, state need to be as close/low level as possible (component))
+6. Add inverse data flow: Parent->Child: props; Child->Parent: callback returns
+
+![](<../.gitbook/assets/Screen Shot 2022-02-17 at 11.58.23 AM.png>)
+
+### Fragment
+
+React constructs that can group child components without adding extra nodes to the DOM
+
+\<React.Fragment> can be automatically removed when groupping, simplify DOM structure
+
+### Controlled vs Uncontrolled Components
+
+States of controlled components are managed by React. User input element (input, textsarea, select...) uncontrolled. Use refs to give React access to DOM elements
+
+![](<../.gitbook/assets/Screen Shot 2022-02-17 at 12.08.50 PM.png>)
+
+#### this.bind()
+
+this.\<functionName>.bind(this), clarifies that the scope of the function that is passed to children component is within the parent component.
+
+Calling(top): function()-->Call directly
+
+Passing(bottom): function-->Pass as pointer
