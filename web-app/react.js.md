@@ -262,3 +262,95 @@ this.\<functionName>.bind(this), clarifies that the scope of the function that i
 Calling(top): function()-->Call directly
 
 Passing(bottom): function-->Pass as pointer
+
+## Hook
+
+Hooks are functions that let you "hook into" React state and lifycycle features from function components. Hooks don't work inside classes — they let you use React without classes.
+
+### useState
+
+useState is a Hook that lets you add React state to function components.
+
+![](<../.gitbook/assets/Screen Shot 2022-02-24 at 11.11.40 AM.png>)
+
+### useEffect
+
+useEffect lets you perform side effects in function components.
+
+If called everytime there's an update: leave \[state] blank
+
+If called only once when mount: empty array \[] at \[state]
+
+If called only when certain state changes: put the state into \[state]
+
+return() function is same as unmount cleanup.
+
+![](<../.gitbook/assets/Screen Shot 2022-02-24 at 11.22.38 AM.png>)
+
+![](<../.gitbook/assets/Screen Shot 2022-02-24 at 11.27.51 AM.png>)
+
+Hooks can only be used in React function, not class and not regular JavaScript functions
+
+Only call Hooks at top level, not inside loops, conditions, or nested function
+
+## Advanced Async Updating
+
+`async funtion()` denotes that the function() will work async
+
+`await expression` enables the program to wait for this expression to be resolved
+
+```jsx
+async componentDidMount(){
+    const res = await fetch("url");
+    const something = await res.json();
+    this.setState({key: sth});
+}
+```
+
+## Optimizing Performance
+
+Do not deal with unneccesary re-render
+
+### Performance Tool
+
+```jsx
+import Perf from 'react-addons-perf';
+Perf.start()
+// Our app
+Perf.stop()
+```
+
+![](<../.gitbook/assets/Screen Shot 2022-02-24 at 11.52.39 AM.png>)
+
+### Eliminate time wasted
+
+shouldComponentUpdate()
+
+For components that implement shouldComponentUpdate(), React will only render if it returns true
+
+```jsx
+function shouldComponentUpdate(nextProps, nextState){
+    // DO some comparison
+    return this.props.color !== nextProps.color;
+}
+```
+
+![](<../.gitbook/assets/Screen Shot 2022-02-24 at 12.00.45 PM.png>)
+
+Shallow Comparison: Strict equality, reference same
+
+Deep Comparison: Property are compared: Lodash isEqual()
+
+#### Use PureComponent: implements SCU automatically
+
+![](<../.gitbook/assets/Screen Shot 2022-02-24 at 12.03.11 PM.png>)
+
+Do not mutate data when using PureComponent: use same object to update instead of assigning the object to a new reference and update the reference.
+
+## API for advanced interation
+
+#### Interaction Libraries
+
+#### Component Libraries
+
+#### Managing Data
