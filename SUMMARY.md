@@ -27,6 +27,7 @@
   * [Jump Game I](leetcode/array/jump-game-i.md)
   * [Jump Game II](leetcode/array/jump-game-ii.md)
   * [House Robber II](leetcode/array/house-robber-ii.md)
+  * [Delete and Earn](leetcode/array/delete-and-earn.md)
   * [Word Break](leetcode/array/word-break.md)
   * [Decode Ways](leetcode/array/decode-ways.md)
   * [Longest Increasing Subsequence](leetcode/array/longest-increasing-subsequence.md)
