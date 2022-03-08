@@ -221,3 +221,120 @@ Commonly used patterns of navigation through interactive applications
 * **Clear entry points**: Complex applications involve navigational models with clear entry points that guide the user to frequently used or temporary functions without having to go through the hierarchical structure or a step-by-step process.
 * **Bookmarks**: Bookmarks allow users to conveniently navigate to a point of his choice, anytime he wants, even if it's deep inside a navigational structure. These give people a way to avoid traversing many links to get to a desired page or state
 * **Escape hatch**: Provide users with the ability to go back to the main component, home page without having to trace steps back.
+
+## Design Paradigms
+
+An archetypal solution or an approach to solving design problems.
+
+### Implementation Centric
+
+Interaction design maps directly to how system functions are implemented
+
+**Pros:**
+
+1\. Very easy to build, easy to debug, easy to troubleshoot
+
+#### **Cons:**
+
+1\. Requires learning how the functions work
+
+2\. Requires skills in using the functions
+
+3\. The system cannot perform high-level actions
+
+### Metaphorical Desgin
+
+Following a real-world metaphor that users are expected to be familiar with.
+
+### Global Metaphor
+
+A global metaphor provides a single, overarching framework for all the metaphors in the system (e.g., Magic Cap).
+
+#### Pros:
+
+They work well in expert interfaces where the interface simulates a real-world system
+
+#### Cons:
+
+Inability to scale; lack of familiar real-world system for entirely new capabilities; cultural differences; inability to adapt as capabilities evolve
+
+### Idiomatic Design
+
+Building dedicated, highly expressive interaction capabilities that users must learn.
+
+Example: Mouse of the computer, easy to learn, even though not exist in real world
+
+* **Primitives**: atomic actions, like point, click
+* **Compounds**: complex actions, like double-click
+* **Idiom**: higher-level element, like deleting text
+
+## Affordances
+
+The perceived properties of a design element that give clues about how to interact with it. Designers have borrowed the concept from ecological psychology.
+
+![](<../.gitbook/assets/Screen Shot 2022-03-08 at 11.37.17 AM.png>)Affordance can be hidden or false
+
+* **False affordance**: An action that is perceived by the user but in fact doesn't work as expected
+* **Hidden affordance**: The affordance is not too obvious
+* **Perceptible affordance**: An object's characteristic imply an action
+
+## Design Pattern
+
+A design pattern is a general, reusable solution to a commonly occurring problem within a given context.
+
+![](<../.gitbook/assets/Screen Shot 2022-03-08 at 11.46.39 AM.png>)
+
+#### Pros:
+
+1. Reduce design time and effort
+2. Improving the quality of design solutions
+3. Establishing familiarity across systems
+4. Providing a baseline or state of the art
+
+#### Cons:
+
+1. Not every design problem will warrant a pattern
+2. Patterns may not exist for new design spaces
+
+## Design Language
+
+### Enter Pattern Language
+
+A complete and hierarchical collection of patterns for a family of design problems
+
+Patterns are words (components) that are connected with grammar rules to make sentences (screens) and eventually language (user experience)
+
+#### Posture-level pattern
+
+The structure that an application follows: type of app (e-commerce? social media? portfolio?)
+
+* Structure
+* Component
+* User experience
+* Alternative/Competitors
+
+#### Experience-Level Pattern
+
+The user goals that make up the user experience that the app supports (activity tracking, coaching, reviewing...)
+
+* Primary goal
+* Secondary goal ...
+
+#### Task-Level Pattern
+
+Design solutions that help users accomplish sequences of actions that mke up user tasks (loggin a meal, capturing a run....)
+
+#### Action-Level Pattern (Widget or Component)
+
+Design solutions that support the actions taken to complete the steps of the user task (start button to initiate activity tracking, list entry for food item)
+
+#### Simplified model:
+
+1. Context: Type of app
+2. Flow: Component that support specific functions
+3. Implementation: Visual/Behavioral element
+
+
+
+
+
