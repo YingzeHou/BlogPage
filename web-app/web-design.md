@@ -346,7 +346,7 @@ Empirical, based on data, testing with users who represent the target population
 
 Usability inspection, review-based evaluation by experts who follow well-established protocols to inspect the usability of design solutions
 
-#### Heuristic Evaluation:
+### Heuristic Evaluation:
 
 Involve having a small set of evaluators examine the interface and judge its compliance with recognized usability principles (heuristic)
 
@@ -355,6 +355,38 @@ Involve having a small set of evaluators examine the interface and judge its com
 * **User control and freedom:** Choose system functions by mistake and will need clearly marked "emergency exit" to leave the unwanted state, like redo and undo
 * **Consistency and standards:** Should not make user wonder whether different words, situation, or action means the same thing (click turn blue, and click turn red is inconsistent)
 * **Error prevention:** Eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action (Google auto correction when search)
+* **Recognition rather than recall**: Minimize user memory load by make options visible. User should not need to remember info from one part of dialogue to another.
+* **Flexibility and efficiency of use:** Accelerators may often speed up the interaction for the expert user, catering both inexperienced and experienced users (keyboard shortcut)
+* **Aesthetic and minimalist design:** Dialogue should not contain information which is irrelevant or rarely needed.
+* **Help user recognize, diagonose, and recover from errors**: Error message be in plain language, precisely indicated the problem, and suggest a solution (Incorrect password reminder)
+* **Help and documentation**: Provide documentation for user to easily search around and understand (Word explanation of HELP CENTER icons)
+
+#### How many evaluators are needed? 3\~5
+
+`ProblemsFound(i) = N(1-(1-l)^i)`
+
+i: independent evaluators
+
+N: total number of usability problems in the interface
+
+l: the proportion of all usability problems found by a single evaluator
+
+#### Heuristic Evaluation Reporting
+
+A document that highlight top problems and with solutions
+
+Severity Ratings: 0\~4 rating scale
+
+### Cognitive Walkthrough
+
+Specialist assesses the learnability and discoverability of a design by posing and answer questions
+
+* Will the user try and achieve the right outcome?
+* Will the user notice that the correct action is available to them
+* Will the user associate the correct action with the outcome they expect to achieve?
+* If the correct action is performed, will the user see that progress is being made towards their desired result?
+
+
 
 
 
