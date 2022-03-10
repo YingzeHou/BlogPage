@@ -334,7 +334,27 @@ Design solutions that support the actions taken to complete the steps of the use
 2. Flow: Component that support specific functions
 3. Implementation: Visual/Behavioral element
 
+## Usability Evaluation
 
+The assessment of the effectiveness of and user satisfaction with desgin solutions
+
+**1.Testing-based methods**:
+
+Empirical, based on data, testing with users who represent the target population of design solutions.
+
+**2. Expert-review-based methods:**
+
+Usability inspection, review-based evaluation by experts who follow well-established protocols to inspect the usability of design solutions
+
+#### Heuristic Evaluation:
+
+Involve having a small set of evaluators examine the interface and judge its compliance with recognized usability principles (heuristic)
+
+* **Visibility of system status**: Keep user informed with feedback at reasonable time
+* **Match between system and the real world**: Speak the users' language, with words, phrases and concepts familiar to real world conventions
+* **User control and freedom:** Choose system functions by mistake and will need clearly marked "emergency exit" to leave the unwanted state, like redo and undo
+* **Consistency and standards:** Should not make user wonder whether different words, situation, or action means the same thing (click turn blue, and click turn red is inconsistent)
+* **Error prevention:** Eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action (Google auto correction when search)
 
 
 

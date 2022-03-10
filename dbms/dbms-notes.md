@@ -1,5 +1,7 @@
 # DBMS Notes
 
+{% embed url="https://docs.google.com/document/d/1X_dVoVGJH6fR2RC1bmae-ZCRddc1ht8b1IrLx01mo9M/edit?usp=sharing" %}
+
 ### _Transaction_ <a href="#transaction" id="transaction"></a>
 
 Execution of a sequence of operations, basic unit of change in DBMS; No partial transaction is allowed.
