@@ -123,4 +123,97 @@ Pass token example:
 
 ``![](<../.gitbook/assets/Screen Shot 2022-03-22 at 10.38.31 AM.png>)``![](<../.gitbook/assets/Screen Shot 2022-03-22 at 10.38.36 AM.png>)``
 
-dd
+## Mobile Navigation with React Native
+
+1. react-navigation
+2. react-native-navigation: More Advanced --> Change Native Component
+
+#### Setup
+
+`npm install @react-navigation/native`
+
+`npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view`
+
+History API provides a Window object to stack pages user previously vistited:
+
+Press back button: `window.history.back()`
+
+Press forward button: `window.history.forward()`
+
+Navigate in stack: `window.history.go(3)`
+
+#### Type of Navigation&#x20;
+
+1. Switch navigator: Show one screen at a time, no back action (Authentication flow)
+2. Stack navigator: Enable transition between screens, where each screen is in stack. Navigator automatically implement native transition animation (list & view detail back and forth)
+3. Tab Navigation: Tabs at bottom or tob of the screen (Main menu and sub sections)
+4. Drawer Navigation: Tab-like, but can be hidden and exposed like a drawer (Options & setting)
+
+#### Navigation Props
+
+Each screen is automatically provided with a _navigation_ props, no need to specify in constructor (navigate, goBack, state)
+
+![](<../.gitbook/assets/Screen Shot 2022-03-24 at 9.44.34 AM.png>)![](<../.gitbook/assets/Screen Shot 2022-03-24 at 9.44.49 AM.png>)
+
+## Mobile Input via Gesture React Native
+
+{% embed url="https://facebook.github.io/react-native/docs/gesture-responder-system" %}
+
+{% embed url="https://facebook.github.io/react-native/docs/panresponder" %}
+
+{% embed url="https://kmagiera.github.io/react-native-gesture-handler" %}
+
+{% embed url="https://www.npmjs.com/package/react-native-swipe-gestures" %}
+
+{% embed url="https://github.com/dancormier/react-native-swipeout" %}
+
+### PanResponder
+
+Uses the core gesture responder system to reconcile several touches into a single gesture that can be used to recognize multi-touch gestures.
+
+1. Initialize PanResponder obejct with event handlers
+
+![](<../.gitbook/assets/Screen Shot 2022-03-24 at 9.59.22 AM.png>)
+
+2\. provide \_panResponder as props into component
+
+![](<../.gitbook/assets/Screen Shot 2022-03-24 at 10.03.23 AM.png>)
+
+#### Animated
+
+Create time-based animation:
+
+![](<../.gitbook/assets/Screen Shot 2022-03-24 at 10.05.03 AM.png>)![](<../.gitbook/assets/Screen Shot 2022-03-24 at 10.05.33 AM.png>)
+
+#### LayoutAnimation
+
+Animate entire screen when there's change in layout (remove a component)
+
+LayoutAnimation is used before setState is called
+
+![](<../.gitbook/assets/Screen Shot 2022-03-24 at 10.06.47 AM.png>)
+
+## Date Object in JS
+
+Date object represent a single moment in time with a platform-independent format, both be used by server and user
+
+For user: Thu Nov 07201911:53:47 GMT-0600 (Central Standard Time)
+
+For server: 2019-11-07T11:53:47-06:00
+
+#### Serialize date into ISO 8601 format:
+
+```javascript
+var date = new Date();
+console.log(date); // Thu Nov 07 2019 11:58:58 GMT-0600 (Central Standard Time)
+
+var json = JSON.stringfy(date);
+console.log(json); // "2019-11-07T17:58:58.487Z"
+```
+
+BUT, cannot deserialize back to date format
+
+SO, use trick:
+
+![](<../.gitbook/assets/Screen Shot 2022-03-24 at 10.11.14 AM.png>)
+
