@@ -217,3 +217,131 @@ SO, use trick:
 
 ![](<../.gitbook/assets/Screen Shot 2022-03-24 at 10.11.14 AM.png>)
 
+## Accessibility Building
+
+#### Accessible Rich Internet Application (ARIA)
+
+aria is a set of HTML attributes that make web components available to assistive technologies.
+
+```html
+<div id="percent-loaded" 
+role="progressbar" 
+aria-valuenow="75" 
+aria-valuemin="0" 
+aria-valuemax="100"></div>
+```
+
+#### In React Native
+
+RN provides us with access to assistive technologies that mobile platforms provide (e.g., VoiceOver on iOS or TalkBack on Android) through component attributes.
+
+```jsx
+<View accessible={true}>
+    <Text>List item one</Text>
+    <Text>List item two</Text>
+</View>
+```
+
+#### RN accessibility Properties:
+
+1. `accessible`: attribute to indicate if the element is an accessible element; If so, group its childern in a single selectable component
+2. `accessibilityLabel`: attribute defines screen reader descriptions of components
+3. `accesssibilityHint`: tell the user what will be performed on this accessible element
+
+#### RN accessibility Actions:
+
+Standard, e.g., magicTap, escape, activate, increment, decrement, longpress, or custom actions, handled by onAccessibilityAction.
+
+```jsx
+onAccessibilityAction={(event) => {
+    switch (event.nativeEvent.actionName) {
+        case'longpress':
+        // take action      ...    
+    }  
+}}
+```
+
+## AsyncStorage
+
+1. Simple: Core functionality set/get
+2. Unencrpyted: Access controll by location access
+3. Persistent: Data saved until explicitily deleted
+4. Global: Saved data is global to the app
+
+#### Setup: Async, so return a Promise
+
+`npm install @react-native-async-storage/async-storage`
+
+`import AsyncStorage from'@react-native-async-storage/async-storage';`
+
+Store accordingly: Dictionary or File in IOS and databsase in Android
+
+#### Save Data
+
+```jsx
+storeData = async () => {
+    try {
+        await AsyncStorage.setItem('@storage_Key', 'stored value')  
+    } 
+    catch (e) {
+    // saving error  
+    }
+}
+```
+
+#### Retrieve Data
+
+```tsx
+getData = async () => {
+    try {
+        const value = await AsyncStorage.getItem('@storage_Key')
+        if(value !== null) {
+            // value previously stored    
+        } 
+    } 
+    catch(e) {
+    // error reading value  
+    }
+}
+```
+
+![](<../.gitbook/assets/Screen Shot 2022-03-29 at 11.02.07 AM.png>)
+
+{% embed url="https://github.com/react-native-community/async-storage" %}
+
+#### Theming in RN
+
+{% embed url="https://nativebase.io" %}
+
+{% embed url="https://react-native-elements.github.io/react-native-elements" %}
+
+#### NativeBase
+
+Enable theming using NativeBaseProvider
+
+{% embed url="https://docs.nativebase.io/setup-provider" %}
+
+#### extendTheme():
+
+![](<../.gitbook/assets/Screen Shot 2022-03-29 at 11.06.34 AM.png>)
+
+## Sensor
+
+1. React Native Library: react-native-sensors
+2. Expo Library: expo-sensors
+
+![](<../.gitbook/assets/Screen Shot 2022-03-29 at 11.08.44 AM.png>)![](<../.gitbook/assets/Screen Shot 2022-03-29 at 11.10.07 AM.png>)
+
+## App LifeCycle Using AppState
+
+Everything we have been doing so far assumes that our app is loaded on the screen and is running as a foreground process.
+
+We need to be able to perform background processes or safely save the user's data in case the OS suspends it or the user quits it.
+
+AppState:
+
+* active: foreground activity
+* background: background activity
+* inactive: transitioning between foreground and background
+
+![](<../.gitbook/assets/Screen Shot 2022-03-29 at 11.13.04 AM.png>)
