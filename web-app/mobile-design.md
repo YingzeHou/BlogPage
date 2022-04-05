@@ -69,3 +69,97 @@ Mobile platforms are highly constrained design environments. Mobile design patte
 * **Advanced Direct Manipulation:** Applications, such as image editors, drawing or presentation tools, or media players, enable direct-manipulation-based controls for content creation or editing
 * **Panes & Panels:** Multi-pane structures and pop-up panels and tools are commonly used in tablets to provide secondary application windows in a way that's similar to desktop applications.
 * **AR/VR:** Augmented and virtual reality, a.k.a. mixed reality, are used to overlay objects or information on images or video of the user's real environment that is captured using the mobile device's camera.
+
+## Prototype
+
+Building a dra! or an early version of a product or system in order to explore, demonstrate, and test design ideas for a part or the entirety of the product or system.
+
+#### Paper Prototyping
+
+Mocking up design ideas by sketching pages/screens with design elements using design supplies (e.g., paper, pencils, markers, scissors, glue, tape) and simulating how the envisioned system would respond to user input by swapping different pages/screens and moving/changing design elements.
+
+#### Wireframe
+
+Lo-fi prototypes of the makeup of a design in terms of its structural components. Wireframes can be hand-drawn or digitally created. \
+Most useful in the early-to-mid stages of the design process.
+
+#### Annotation
+
+Labels, explanations, and notes that provide further information on the goals, content, and functioning of the design elements illustrated on wireframes.\
+Key in addressing the problem of interpretability of simplified designs for all stakeholders.
+
+#### Interactive
+
+Creating realistic prototypes of the navigation or structural components (or both) of the design idea by creating a series of screens/pages with design elements, linking these screens/pages for navigation, and simulating the transitions between screens/pages.
+
+#### Native prototyping
+
+Implementing and testing design ideas on the target technology platform of the design.
+
+{% embed url="https://reactstudio.com" %}
+
+{% embed url="https://bootstrapstudio.io" %}
+x
+{% endembed %}
+
+## Prototyping Theory
+
+#### Three Dimensional Model of Prototyping
+
+Prototypes represent three dimensions of a design idea:\
+1\. **Role**: Represents the functions that the system serves in the user's life, i.e., how the system is useful to them.\
+2\. **Look and feel**: Simulates the sensory experience of the user while using the system, i.e., what the user sees, hears, and feels during use.\
+3\. **Implementation**: Includes the technical capabilities that enable the system to perform its function, i.e., the low-level details of how the system works.
+
+There three combined: **Design Integration:** Represents the complete user experience with the system as envisioned in the conceptual design.
+
+#### Prototyping Scope
+
+1. **Horizental**: Provides a broad view of the entire system and focus on the user interaction rather than the functionality.
+2. **Vertical:** Focuses on a single feature/functionality and provides the full functioning of that feature.
+
+![](<../.gitbook/assets/Screen Shot 2022-04-05 at 11.37.05 AM.png>)
+
+## Prototyping Strategy
+
+#### Throwaway
+
+Rapid prototyping to explore design ideas, demonstrate feasibility, communicate with stakeholders, and test the ideas with users and eventually discarding the prototype instead of further developing the model into a final product.\
+Most lo-fi and paper prototypes are throwaway protototypes.\
+Throwaway prototyping is usually combined with sketching.
+
+#### Evolutionary
+
+Also called breadboard prototyping, the design team incrementally builds prototypes of a design idea, tests the idea with users, and refines the prototype until it reaches the desired level of maturity.\
+Most products we use are evolutionary prototypes that went through alpha, beta, etc. phases.
+
+#### Incremental&#x20;
+
+Dividing system functionality into slices (vertical prototypes) based on design specifications and incrementally building each slice that is then integrated into the overall system.\
+Appropriate for large and complex projects.
+
+#### Extreme
+
+Breaking down the development into three phases that build on each other: (1) building a static prototype, (2) building fully functional, interactive components that will simulate services, and (3) finally implementing the services.\
+Enables rapid and parallel prototyping, testing, and refinement by removing dependencies between different components of a system or between the system and third party services.
+
+#### Fidelity of Prototyping: The more "done" the prototype looks, the narrower the feedback will be; and vice versa.
+
+The level of detail in which a design is represented in the prototype.
+
+1. **lo-fi advantage**:
+   1. Has lower development cost
+   2. Prevents designers from prematurely wedding to specific design ideas
+   3. Enables exploring, communicating, and testing of conceptual designs
+   4. Helps designers identify structural, navigation, and organizational issues
+   5. Allows rapid evaluation of multiple design ideas
+   6. Enables communication among stakeholders
+   7. Allows identifying market requirements before dedicating resources to development
+2. **lo-fi limitation:**
+   1. Requires a facilitator to drive the prototype during testing and communication
+   2. Offers limited ability to identify breakdowns in design
+   3. Lacks sufficiently low-level specifications for development
+   4. Provides limited sense of feasibility
+3. hi-fi
+
+![](<../.gitbook/assets/Screen Shot 2022-04-05 at 11.43.53 AM.png>)
