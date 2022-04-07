@@ -163,3 +163,129 @@ The level of detail in which a design is represented in the prototype.
 3. hi-fi
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-05 at 11.43.53 AM.png>)
+
+## Design for Accessibility
+
+Usability: The effectiveness, efficiency, and satisfaction with which a specified set of users can achieve a specified set of tasks in a particular environment.
+
+Accessibility: The usability of a product, service, environment, or facility by people with the widest range of capabilities. (Used by as many people as possible, focus on disability)
+
+### Disability
+
+A disability is any condition of the body or mind (impairment) that makes it more difficult for the person with the condition to do certain activities (activity limitation) and interact with the world around them (participation restrictions).
+
+#### Impairment:
+
+In a person’s body structure or function, or mental functioning (e.g., loss of a limb, loss of vision, or memory loss)
+
+### Anotomical
+
+* **Sensory impairment**: Involves impairment in one or more senses, such as loss of vision or hearing.
+* **Physical impairment:** Involves loss of function to one or more parts of the body, e.g., congenitally or a!er stroke or spinal-cord injury.
+* **Cognitive impairment:** Includes cognitive deficits, such as learning impairment or loss of memory/cognitive function due to aging or conditions such as Alzheimer's disease.
+* **Visual Disability**: Impairments in vision, including low vision, blindness, and color blindness.
+* **Motor/Mobility**: Muscular or skeletal impairments in the hands or arms that affect user input as well as impairments that affect mobility, where users are in a wheelchair or bedridden.
+* **Auditory**: Deficits that affect hearing at different levels of severity, including deafness.
+* **Seizure**: Neurological impairments, such as photosensitive epilepsy, that result in sensitivity to light, motion, and flickering on screen, which might trigger seizures
+* **Cognitive/Learning**: Congenital, developmental, and traumatic (e.g., traumatic brain injury) conditions that result in cognitive or learning challenges
+
+### Temporal
+
+* **Permanent impairment:** Congenital or long-term conditions, such as color blindness, missing body parts, etc
+* **Temporary impairment**: Impairments that improve over time, such as recovery a!er illness or accidents, e.g., a broken arm.
+* **Situational impairment**: Impairments introduced by context, such as environments with low light or noise.
+
+
+
+#### Limitation in activities:
+
+(e.g., difficulty seeing, hearing, walking, or problem solving)
+
+#### Restriction in participation:
+
+In activities of daily living (e.g., working, engaging in social and recreational activities, and obtaining health care)
+
+![](<../.gitbook/assets/Screen Shot 2022-04-07 at 10.12.34 AM.png>)
+
+### Achieve accessibility?
+
+## Accessibility Design
+
+![](<../.gitbook/assets/Screen Shot 2022-04-07 at 10.14.18 AM.png>)![](<../.gitbook/assets/Screen Shot 2022-04-07 at 10.14.24 AM.png>)
+
+#### Mismatch between ability and environment
+
+Context-dependent disability results from a mismatch between abilities and the environment:\
+Ability + Context = Disability
+
+#### Universal Design:
+
+The design of products and environments to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design.
+
+Design solutions that benefit some individuals may benefit the whole society. E.g., in the US, only 26K people are suffer loss of upper extremities. \
+Designs that would benefit these 26K would also benefit another 21M people with temporary or situational disabilities.
+
+### Principle of Universal Design:
+
+* **Equitable use**: \
+  The design is useful and marketable to people with diverse abilities.\
+  1\. Provide the same means of use for all users: identical whenever possible; equivalent when not.\
+  2\. Avoid segregating or stigmatizing any users. \
+  3\. Provisions for privacy, security, and safety should be equally available to all users. \
+  4\. Make the design appealing to all users.
+* **Flexibility in Use:**\
+  The design accommodates a wide range of individual preferences and abilities.\
+  1\. Provide choice in methods of use.\
+  2\. Accommodate right- or le!-handed access and use.\
+  3\. Facilitate the user's accuracy and precision.\
+  4\. Provide adaptability to the user's pace.
+* **Simple and Intuitive Use**:\
+  Use of the design is easy to understand, regardless of the user's experience, knowledge, language skills, or current concentration level.\
+  1\. Eliminate unnecessary complexity.\
+  2\. Be consistent with user expectations and intuition.\
+  3\. Accommodate a wide range of literacy and language skills.\
+  4\. Arrange information consistent with its importance.\
+  5\. Provide effective prompting and feedback during and a"er task completion.
+* **Perceptible Information**:\
+  The design communicates necessary information effectively to the user, regardless of ambient conditions or the user's sensory abilities.\
+  1\. Use different modes (pictorial, verbal, tactile) for redundant presentation of essential information.\
+  2\. Provide adequate contrast between essential information & surroundings. \
+  3\. Maximize "legibility" of essential information\
+  4\. Differentiate elements in ways that can be described (i.e., make it easy to give instructions or directions). \
+  5\. Provide compatibility with a variety of techniques or devices used by people with sensory limitations.
+* **Tolerance for Error**:\
+  The design minimizes hazards and the adverse consequences of accidental or unintended actions.\
+  1\. Arrange elements to minimize hazards and errors: most used elements, most accessible; hazardous elements eliminated, isolated, or shielded.\
+  2\. Provide warnings of hazards and errors. \
+  3\. Provide fail safe features. \
+  4\. Discourage unconscious action in tasks that require vigilance.
+* **Low Physical Effort**:\
+  The design can be used efficiently and comfortably and with a minimum of fatigue.\
+  1\. Allow user to maintain a neutral body position.\
+  2\. Use reasonable operating forces.\
+  3\. Minimize repetitive actions.\
+  4\. Minimize sustained physical effort.
+* **Size and Space for Approach and Use**:\
+  Appropriate size and space is provided for approach, reach, manipulation, and use regardless of user's body size, posture, or mobility.\
+  1\. Provide a clear line of sight to important elements for any seated or standing user.\
+  2\. Make reach to all components comfortable for any seated or standing user.\
+  3\. Accommodate variations in hand and grip size.\
+  4\. Provide adequate space for the use of assistive devices or personal assistance.
+
+## Assistive Technology
+
+Specialized tools that close accessibility gaps
+
+* **Screen Reader:** Software used by individuals with vision impairments to read screen content
+* **Screen Magnification:** Enlarges text or graphics on screens to improve visibility of content for individuals with limited vision.
+* **Text Reader**: Tools that read out loud text on screens to support vision and learning disabilities.
+* **Braille for the Web**: A mechanical device that translates textual content on the screen into Braille.
+* **Alternative Input Device**: Specialized tools that help individuals with motor impairments who cannot use a mouse or keyboard with pointing. (Head/Mouth wands/pointer, Motion/eye tracking, speech input, etc)
+
+### Accessibility Testing
+
+{% embed url="http://wave.webaim.org" %}
+
+{% embed url="http://colororacle.cartography.ch/index.html" %}
+
+{% embed url="http://juicystudio.com/services/image.php" %}
