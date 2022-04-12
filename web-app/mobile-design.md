@@ -289,3 +289,106 @@ Specialized tools that close accessibility gaps
 {% embed url="http://colororacle.cartography.ch/index.html" %}
 
 {% embed url="http://juicystudio.com/services/image.php" %}
+
+## Conversational Interface
+
+Why conversational interface brings value?
+
+1. Streamlining app installation, login, payment, notifications, and and so on in a conversational paradigm.
+2. In some contexts, e.g., while driving, CIs are more effective, efficient, and satisfactory due to resource constraints.
+3. CIs address many accessibility problems, including vision (e.g., blindness), motor (e.g., tremor), and cognitive (e.g, dyslexia) deficiencies.
+
+### Design Principles
+
+#### Gricean Maxims
+
+Proposed by Paul Grice, conversations follow the cooperative principle and four key maxims:
+
+* Maxim of quality (truthful and accurate communication)
+* Maxim of quantity ( just the right amount of information)
+* Maxim of relevance (appropriate and relevant information)
+* Maxim of manner (clear, cooperative communication)
+
+#### Multimodality
+
+Multimodal interfaces utilize multiple modalities, including visual information, speech, touch, and so on, in user experiences they afford.
+
+* Take advantage of other modalities, e.g., visual information, vibrations, etc., wherever appropriate
+* Provide users with breaks for decision making, interruptions, etc.
+
+#### Interaction Paradigm
+
+Conversational interfaces can follow different paradigms depending on the context of use and the design of the application:
+
+*   Command-and-control interfaces (always-on voice assistants)
+
+    **Interfaces where speech input is mapped to specific system functions that are called immediately. These interfaces commonly utilize:**
+
+    * Expressing user intent using a wake word (e.g.,"OK, Google") or the pressing of a button (e.g., home button in the iPhone)
+    * Indicating listening and understanding
+    * Executing the mapped function
+*   Conversational interfaces (chatbots, task assistants, social robots)
+
+    **Interfaces where the interaction with the system has the characteristics of human conversations, including turn taking, theoretically infinite depth, conversational markers, etc.**
+
+#### Turn talking
+
+Speaking turns are the core, cooperative structure of conversations that involves one speaker at a time and an explicit exchange of tokens:
+
+* One speaker at a time — transparency in who is speaking
+* Turn exchanges — explicit signaling of who will speak next
+* Interruption handling — very difficult with CIs
+
+#### Conversational Markers
+
+Speech cues that indicate the state or the direction of the conversation. Types of conversational markers:
+
+* Timelines ("First," "Halfway there," "Finally")
+* Acknowledgements ("Thanks," "Got it,", "Alright," "Sorry about that")
+* Positive feedback ("Good job," "Nice to hear that")
+
+#### Confirmation
+
+CIs are designed with explicit forms of confirmation to improve system usability and transparency.
+
+* Explicit Confirmation: Requiring the user to confirm: "I think you want to set a reminder to 'buy insurance before going skydiving next week.' Is that right?
+* Implicit Confirmation: Letting user know what was understood: "Ok, setting a reminder to buy insurance..."
+
+#### Error Handling
+
+Deviations from expected conversational flow due to technical mistakes, unexpected user behavior, environmental influences, etc.
+
+* No speech detected
+* Speech detected, but nothing recognized
+* Something was recognized correctly, but the system does the wrong thing with it
+* Something was recognized incorrectly
+
+![](<../.gitbook/assets/Screen Shot 2022-04-12 at 10.22.01 AM.png>)
+
+## Usability Heuristic for CI
+
+Developed by Jacob Nielsen, heuristic evaluation involves having a small set of evaluators examine the interface and judge its compliance with recognized usability principles (the "heuristics").
+
+1. **General Heuristic**
+   1. Give the agent a persona through language, sounds, and other styles.
+   2. Make the system status clear.
+   3. Speak the user’s language.
+   4. Start and stop conversations.
+   5. Pay attention to what the user said and respect the user’s context.
+2. **Conversational Style**
+   1. Use spoken language characteristics.
+   2. Make conversation a back-and-forth exchange.
+   3. Adapt agent style to who users are, how they speak, and how they are feeling.
+3. **Guiding, Teaching, and Offering help**
+   1. Guide users through a conversation so they are not easily lost.
+   2. Use responses as a way to help users discover what is possible.
+4. **Feedback and Prompts**
+   1. Keep feedback and prompts short.
+   2. Confirm input intelligently.
+   3. Use speech-recognition system confidence to drive feedback style.
+   4. Use multimodal feedback when available.
+5. **Errors**
+   1. Avoid cascading correction errors.
+   2. Use normal language in communicating errors.
+   3. Allow users to exit from errors or a mistaken conversation.
+
