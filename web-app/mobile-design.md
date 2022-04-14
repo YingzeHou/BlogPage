@@ -392,3 +392,52 @@ Developed by Jacob Nielsen, heuristic evaluation involves having a small set of 
    2. Use normal language in communicating errors.
    3. Allow users to exit from errors or a mistaken conversation.
 
+## VUI Design Context
+
+### DialogFlow
+
+A development suite for conversational interfaces for websites, mobile applications, and IoT devices (e.g., smart speakers)
+
+#### Conversational Interface
+
+User interfaces that use human dialogue as the primary mode of human-computer interaction.
+
+#### Why hard to prototype human language? Because...
+
+Social interactions are driven by tacit knowledge: Knows more than what we talk
+
+#### Solution: Experience Prototyping
+
+Prototyping the holistic experience of interacting with a product
+
+**An experience prototype is any kind of representation, in any medium, that is designed to understand, explore or communicate what it might be like to engage with the product, space, or system we are designing.**
+
+#### **When to use Experience Prototyping?**
+
+1. Understanding existing user experiences and context
+2. Exploring and evaluating design ideas
+3. Communicating ideas to an audience
+
+#### What do we prototype?
+
+1. System behavior
+2. User behavior
+3. Interactions with context
+
+### Steps to do experience prototyping
+
+1. **Define Context:** E.g. passengers using entertainment system on a bus, travelers packing their luggage
+2. **Develop Scenario:** E.g. buying a ticket, users packing, cooking a meal.
+3. **Identify Design Goal:** E.g. find, filter, and purchase flights; help the user set and follow personal goals through daily reminders.
+4. **Set up an environment:** E.g. creating props to represent devices, environmental constraints.
+5. **Act out interactions:** E.g. How will the interaction unfold? How will the user behave? How should the system behave**?**
+6. **Develop Insight:** E.g. What did you learn about system behavior, user behavior, and interactions with context?
+
+#### BodyStorming
+
+Bodystorming is a creativity method that involves physically experiencing a situation to develop new ideas and insights.
+
+Supporting design teams in ideating and acting out human-robot interactions using a system called Synthé.
+
+
+
