@@ -50,6 +50,7 @@
   * [Permutation in String](leetcode/string/permutation-in-string.md)
 * [Tree](leetcode/tree/README.md)
   * [House Robber III](leetcode/tree/house-robber-iii.md)
+  * [Convert Sorted Array to Binary Search Tree](leetcode/tree/convert-sorted-array-to-binary-search-tree.md)
   * [Restore Binary Tree](leetcode/tree/restore-binary-tree.md)
   * [Populating Next Right Pointers in Each Node II](leetcode/tree/populating-next-right-pointers-in-each-node-ii.md)
   * [Subtree of Another Tree](leetcode/tree/subtree-of-another-tree.md)
