@@ -101,3 +101,44 @@ CMD node index.js
 ```
 
 In this way, adding package.json & package-lock.json into the container is using cache since these two files are not changing.
+
+## Reduce Image Size
+
+Use **ALPINE**; Supported tags for official images
+
+`docker pull node:lts-alpine` --> smaller size and faster
+
+Tags, Versioning, and Tagging:
+
+* Allow control image version
+* Avoid breaking changes (Not always using the latest version)
+* Safe
+
+Have control over the tags + version: `docker pull node:8-alpine` instead of `docker pull node:alpine`
+
+### How to correctly Tag images
+
+`docker tag website:latest website:1` Tag from latest to 1, so that tag 1 contains current version. If do another `docker tag website:latest website:2`, tag 2 will be pointing to the latest one, and changes in the latest version will not reflect in tag 1
+
+## Docker Registries
+
+* Server application that can store and distribute Docker images. Store images in a server host instead of our local host
+* Used in CD/CI Pipeline
+* Running our applications by uploading container from local to registry.&#x20;
+
+Host have images --> Have a docker registry --> push images from host to docker registry&#x20;
+
+Private/Public Registry
+
+### Create Docker Hub Repo
+
+1. Create Repo from Docker Hub website (Similar to Github)
+2. `docker push user/website:tagname` to push new tag to the repo
+
+## Inspect and Logs
+
+`docker logs [containerID]` to show all logs
+
+`docker logs -f [containerID]` to follow the log and see real-time updates when new logs happen
+
+`docker inspect [containerID]` to inspect detailed information of this container
