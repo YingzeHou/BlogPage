@@ -77,3 +77,12 @@
 * [Splunk](anaplanintern/splunk.md)
 * [Docker](anaplanintern/docker.md)
 * [Kubernetes](anaplanintern/kubernetes.md)
+
+***
+
+* [💰 Notes for Finance Concept](notes-for-finance-concept.md)
+
+## Analysis Concept
+
+* [Volume Spread Analysis](analysis-concept/volume-spread-analysis.md)
+* [Smart Money Concepts](analysis-concept/smart-money-concepts.md)
